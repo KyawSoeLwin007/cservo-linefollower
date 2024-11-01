@@ -1,0 +1,29 @@
+{
+    "name": "CServo Linefollower",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Module-World": "github:yahboomtechnology/module-world#025d1cd677de66e51ae94930e678142d74455441",
+        "servo": "*",
+        "Module_World_Color": "github:YahboomTechnology/module_world_color#3257d1d321e8889d10402ce6796c66add9405226"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "pxt": "6.0.38",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
